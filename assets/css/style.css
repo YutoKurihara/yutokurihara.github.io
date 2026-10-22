@@ -78,6 +78,7 @@ img { display: block; max-width: 100%; }
 .obfuscated-email { white-space: nowrap; }
 .hero-figure { margin: 0; }
 .hero-figure img { width: 100%; height: auto; aspect-ratio: 5 / 4; object-fit: contain; }
+.hero-figure figcaption { margin-top: 8px; color: var(--muted); font-size: 12px; line-height: 1.7; text-align: right; }
 .news-section { display: grid; grid-template-columns: 260px 1fr; gap: 48px; border-top: 1px solid var(--line); padding-block: 44px 55px; }
 .section-title { font-family: var(--serif); font-size: 25px; font-weight: 500; letter-spacing: .025em; margin: 9px 0 12px; line-height: 1.7; }
 .section-caption { font-size: 13px; color: var(--muted); line-height: 1.9; margin: 0; }
@@ -179,7 +180,7 @@ img { display: block; max-width: 100%; }
 .project-overview-copy > .project-result-figure { margin: 30px 0 32px; }
 .project-result-figure img { display: block; width: 100%; height: auto; }
 .instability-composite picture { display: block; }
-.project-image-zoom { display: block; cursor: zoom-in; }
+.project-image { display: block; }
 .project-result-figure figcaption { margin-top: 12px; color: var(--muted); font-size: 13px; line-height: 1.9; }
 .figure-caption-title { display: block; margin-bottom: 4px; color: var(--ink); font-size: 14px; font-weight: 500; }
 .figure-source { display: block; margin-top: 4px; }
@@ -188,8 +189,8 @@ img { display: block; max-width: 100%; }
 .network-panel { min-width: 0; }
 .network-label { margin: 0 0 14px; font-size: 16px; }
 .project-overview-copy .network-label { margin: 0 0 14px; color: var(--ink); }
-.network-plate { display: flex; align-items: center; justify-content: center; aspect-ratio: 680 / 315; cursor: zoom-in; }
-:root[data-theme="dark"] .project-result-figure .project-image-zoom,
+.network-plate { display: flex; align-items: center; justify-content: center; aspect-ratio: 680 / 315; }
+:root[data-theme="dark"] .project-result-figure .project-image,
 :root[data-theme="dark"] .network-plate { background: #fbfcff; border-radius: 4px; overflow: hidden; }
 .project-related { margin-top: 44px; }
 .project-paper-list { list-style: none; padding: 0; margin: 0; }
