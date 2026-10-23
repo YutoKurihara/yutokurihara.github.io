@@ -134,12 +134,16 @@ img { display: block; max-width: 100%; }
 .project-card { min-width: 0; }
 .project-card-link { display: block; }
 .project-card-link img { width: 100%; height: auto; aspect-ratio: 1619 / 972; object-fit: contain; }
-.project-card-link h3 { display: flex; align-items: baseline; gap: 12px; margin: 17px 0 10px; font-size: 18px; line-height: 1.8; font-weight: 500; }
+.project-card-link h3 { display: flex; align-items: baseline; gap: 12px; min-height: 3.6em; margin: 17px 0 10px; font-size: 18px; line-height: 1.8; font-weight: 500; }
 .project-card-subtitle { display: inline-block; white-space: nowrap; }
 .project-card-arrow { flex-shrink: 0; color: var(--accent); }
 .project-card-link p { margin: 0; color: var(--muted); font-size: 16px; line-height: 2; }
 .project-card-link:hover h3 { color: var(--accent); }
 .project-card-link:hover img { opacity: .94; }
+@media (min-width: 1216px) {
+  /* Let the three project illustrations grow from 1120px to at most 1280px as a group. */
+  .research-projects { margin-inline: max(-80px, calc(608px - 50vw)); }
+}
 .project-page-heading h1 { font-size: clamp(30px, 3.2vw, 42px); letter-spacing: .02em; line-height: 1.6; }
 .project-introduction { max-width: 900px; padding-top: 14px; }
 .project-introduction > p { margin: 0; font-size: 16px; line-height: 2.1; }
@@ -371,7 +375,7 @@ html[lang="en"] .section-title, html[lang="en"] .content-block h2 { font-family:
   .research-projects { padding-block: 29px 38px; }
   .research-projects > h2 { font-size: 20px; margin-bottom: 20px; }
   .project-grid { grid-template-columns: 1fr; gap: 32px; }
-  .project-card-link h3 { font-size: 16px; margin-top: 14px; }
+  .project-card-link h3 { min-height: 0; font-size: 16px; margin-top: 14px; }
   .project-card-link p { font-size: 16px; }
   .project-page-heading h1 { font-size: clamp(28px, 7vw, 34px); }
   .project-introduction { padding-top: 10px; }
