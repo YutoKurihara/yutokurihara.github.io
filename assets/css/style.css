@@ -86,7 +86,7 @@ img { display: block; max-width: 100%; }
 .news-section { display: grid; grid-template-columns: 260px 1fr; gap: 48px; border-top: 1px solid var(--line); padding-block: 44px 55px; }
 .section-title { font-family: var(--serif); font-size: 25px; font-weight: 500; letter-spacing: .025em; margin: 9px 0 12px; line-height: 1.7; }
 .section-caption { font-size: 13px; color: var(--muted); line-height: 1.9; margin: 0; }
-.news-scroll { max-height: 290px; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: var(--scrollbar) transparent; padding-right: 15px; }
+.news-scroll { max-height: 480px; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: var(--scrollbar) transparent; padding-right: 15px; }
 .news-list { list-style: none; margin: 0; padding: 0; }
 .news-item { padding-block: 6px 25px; border-bottom: 1px solid var(--line); margin-bottom: 22px; }
 .news-item:last-child { margin-bottom: 0; }
@@ -407,7 +407,7 @@ html[lang="en"] .section-title, html[lang="en"] .content-block h2 { font-family:
   .hero-figure img { aspect-ratio: 5 / 4; object-fit: contain; }
   .news-section { grid-template-columns: 1fr; gap: 22px; padding-block: 30px 36px; }
   .section-title { font-size: 24px; margin-bottom: 6px; }
-  .news-scroll { max-height: 300px; padding-right: 9px; }
+  .news-scroll { max-height: 420px; padding-right: 9px; }
   .news-item p { font-size: 16px; }
   .footer-inner { padding-block: 22px; gap: 12px; }
   .footer-name { font-size: 12px; }
