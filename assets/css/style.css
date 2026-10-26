@@ -94,6 +94,8 @@ img { display: block; max-width: 100%; }
 .news-meta time { color: var(--muted); font-variant-numeric: tabular-nums; }
 .news-tag { color: var(--accent); border: 1px solid var(--tag-line); padding: 0 8px; line-height: 1.8; font-size: 11px; }
 .news-item p { margin: 10px 0 0; font-size: 16px; line-height: 2; }
+.news-link { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.news-link:hover { text-decoration-thickness: 2px; }
 .site-footer { border-top: 1px solid var(--line); }
 .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 25px; padding-block: 25px 28px; }
 .footer-name { margin: 0; font-size: 13px; letter-spacing: .07em; }
